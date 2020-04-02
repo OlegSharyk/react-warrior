@@ -1,0 +1,18 @@
+body {
+    background: #f9f9f9;
+}
+
+.nav-link {
+    cursor: pointer;
+
+    &:hover {
+        color: #007bff;
+    }
+}
+
+.page-item {
+    cursor: pointer;
+}
+.page-item.disabled {
+    cursor: default;
+}
